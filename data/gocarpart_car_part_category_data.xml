@@ -1,0 +1,2064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+    
+    <record model="gcp.car.part.category" id="gcp_car_part_category_air_and_fuel">
+        <field name="name">Air and Fuel</field>
+    
+    </record>
+
+    <record model="gcp.car.part.category" id="gcp_car_part_category_axle__steering__and_suspension">
+        <field name="name">Axle, Steering, and Suspension</field>
+    
+    </record>
+
+    <record model="gcp.car.part.category" id="gcp_car_part_category_body">
+        <field name="name">Body</field>
+    
+    </record>
+
+    <record model="gcp.car.part.category" id="gcp_car_part_category_cooling_and_heating">
+        <field name="name">Cooling and Heating</field>
+    
+    </record>
+
+    <record model="gcp.car.part.category" id="gcp_car_part_category_electrical">
+        <field name="name">Electrical</field>
+    
+    </record>
+
+    <record model="gcp.car.part.category" id="gcp_car_part_category_engine">
+        <field name="name">Engine</field>
+    
+    </record>
+
+    <record model="gcp.car.part.category" id="gcp_car_part_category_interior">
+        <field name="name">Interior</field>
+    
+    </record>
+
+    <record model="gcp.car.part.category" id="gcp_car_part_category_lights">
+        <field name="name">Lights</field>
+    
+    </record>
+
+    <record model="gcp.car.part.category" id="gcp_car_part_category_mirrors_and_glass">
+        <field name="name">Mirrors and Glass</field>
+    
+    </record>
+
+    <record model="gcp.car.part.category" id="gcp_car_part_category_transmission">
+        <field name="name">Transmission</field>
+    
+    </record>
+
+<!-- SUB CATEGORY -->
+
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_accelerator_parts">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Accelerator Parts</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_air_cleaner">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Air Cleaner</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_exhaust_assembly">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Exhaust Assembly</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_exhaust_manifold">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Exhaust Manifold</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_fuel_pump">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Fuel Pump</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_fuel_tank">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Fuel Tank</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_gas_tank">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Gas Tank</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_muffler">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Muffler</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_throttle_body_assembly">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Throttle Body Assembly</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_turbo-supercharger">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Turbo-Supercharger</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_air_flow_meter">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Air Flow Meter</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_air_injection_pump">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Air Injection Pump</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_air_tube/resonator">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Air Tube/Resonator</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_carburetor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Carburetor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_electronic_gas_recirculation">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Electronic Gas Recirculation</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_exhaust_cross_pipe">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Exhaust Cross Pipe</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_exhaust_fluid_pump">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Exhaust Fluid Pump</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_exhaust_fluid_tank">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Exhaust Fluid Tank</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_exhaust_pipe">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Exhaust Pipe</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_exhaust_resonator">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Exhaust Resonator</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_fuel_cap">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Fuel Cap</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_fuel_cell">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Fuel Cell</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_fuel_filler_door">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Fuel Filler Door</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_fuel_filler_neck">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Fuel Filler Neck</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_fuel_gauge">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Fuel Gauge</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_fuel_injection_parts">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Fuel Injection Parts</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_fuel_lines">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Fuel Lines</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_fuel_tank_send_unit">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Fuel Tank Send Unit</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_fuel_vapor_canister">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Fuel Vapor Canister</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_gas_cap">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Gas Cap</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_gas_filler_neck">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Gas Filler Neck</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_gas_filler_tube">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Gas Filler Tube</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_gas_gauge">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Gas Gauge</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_gas_lines">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Gas Lines</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_gas_tank_send_unit">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Gas Tank Send Unit</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_tail_pipe">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_air_and_fuel"/>
+        <field name="name">Tail Pipe</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_abs_parts">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">ABS Parts</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_axle_assembly__front_(4wd)">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Axle Assembly, Front (4WD)</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_axle_assembly__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Axle Assembly, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_differential_assembly">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Differential Assembly</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_frame">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Frame</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_rim">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Rim</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_steering_wheel">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Steering Wheel</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_strut">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Strut</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_tires">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Tires</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_wheel">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Wheel</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_4x4_axle_actuator">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">4x4 Axle Actuator</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_anti-lock_brake_parts">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Anti-lock Brake Parts</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_axle_housing">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Axle Housing</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_axle_shaft">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Axle Shaft</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_backing_plate__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Backing Plate, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_backing_plate__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Backing Plate, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_brake_clutch_pedal_part">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Brake Clutch Pedal Part</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_brake_master_cylinder">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Brake Master Cylinder</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_brake_proport_valve">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Brake Proport Valve</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_brake_shoes">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Brake Shoes</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_brakes__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Brakes, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_brakes__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Brakes, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_caliper">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Caliper</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_carrier_assembly">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Carrier Assembly</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_carrier_case">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Carrier Case</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_center_cap">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Center Cap</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_chassis_control_module">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Chassis Control Module</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_chassis_sensor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Chassis Sensor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_coil/air_spring">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Coil/Air Spring</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_drag_link">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Drag Link</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_drive_shaft__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Drive Shaft, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_drive_shaft__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Drive Shaft, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_drivetrain_sensor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Drivetrain Sensor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_e-brake">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">E-brake</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_emergency_brake_parts">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Emergency Brake Parts</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_frame_horn">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Frame Horn</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_frame_rails__up_lower">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Frame Rails, Up Lower</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_frame__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Frame, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_front_axle_beam_2wd">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Front Axle Beam 2WD</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_hub">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Hub</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_hubcap">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Hubcap</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_idler_arm">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Idler Arm</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_independent_rear_suspension_assembly">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Independent Rear Suspension Assembly</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_knee__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Knee, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_knuckle_support">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Knuckle Support</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_leaf_spring_front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Leaf Spring Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_leaf_spring_rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Leaf Spring Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_loaded_beam_axle">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Loaded Beam Axle</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_locking_hubs">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Locking Hubs</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_lower_control_arm__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Lower Control Arm, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_lower_control_arm__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Lower Control Arm, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_pitman_arm">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Pitman Arm</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_power_brake_booster">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Power Brake Booster</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_power_steering_assembly">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Power Steering Assembly</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_power_steering_control_valve">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Power Steering Control Valve</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_power_steering_cooler">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Power Steering Cooler</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_power_steering_press_cylinder">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Power Steering Press Cylinder</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_power_steering_press_hose">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Power Steering Press Hose</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_power_steering_pump/motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Power Steering Pump/Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_power_steering_reservoir">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Power Steering Reservoir</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_radius_arm__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Radius Arm, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_rear_knuckle/stub">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Rear Knuckle/Stub</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_ring_gear_-_pinion">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Ring Gear - Pinion</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_shock_absorber">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Shock Absorber</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_spring_hanger">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Spring Hanger</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_stabilizer_bar">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Stabilizer Bar</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_steering_column">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Steering Column</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_steering_gear_rack">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Steering Gear Rack</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_steering_shaft">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Steering Shaft</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_steering_suspension__misc">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Steering Suspension, Misc</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_strut_tower_brace">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Strut Tower Brace</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_suspension_compressor_pumps">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Suspension Compressor Pumps</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_suspension_cross_member_k-frame">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Suspension Cross Member K-Frame</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_tie_rod">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Tie Rod</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_tools">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Tools</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_torsion_bar">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Torsion Bar</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_trim_ring">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Trim Ring</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_universal_slip_yoke">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Universal Slip Yoke</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_upper_control_arm__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Upper Control Arm, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_upper_control_arm__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Upper Control Arm, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_wheel_cover">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_axle__steering__and_suspension"/>
+        <field name="name">Wheel Cover</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_bumper_assembly__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Bumper Assembly, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_bumper_assembly__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Bumper Assembly, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_bumper_cover__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Bumper Cover, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_assembly__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Door Assembly, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_assembly__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Door Assembly, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_fender">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Fender</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_grille">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Grille</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headlamp_door-cover">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Headlamp Door-Cover</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headlight_cover">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Headlight Cover</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_hood">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Hood</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_a_pillar">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">A Pillar</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_antenna">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Antenna</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_battery_tray">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Battery Tray</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_bed_liner">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Bed Liner</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_body_sensor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Body Sensor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_bumper_end_cap">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Bumper End Cap</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_bumper_filler_panel">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Bumper Filler Panel</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_bumper_guard__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Bumper Guard, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_bumper_guard__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Bumper Guard, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_bumper_reinforcement__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Bumper Reinforcement, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_bumper_reinforcement__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Bumper Reinforcement, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_bumper_shock">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Bumper Shock</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_cab_clip">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Cab Clip</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_cargo_cover">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Cargo Cover</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_center_pillar">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Center Pillar</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_convertible_boot">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Convertible Boot</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_convertible_top_lift">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Convertible Top Lift</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_cowl">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Cowl</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_cowl_vent_panel">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Cowl Vent Panel</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_decklid_tailgate">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Decklid Tailgate</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_assembly__rear_back">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Door Assembly, Rear Back</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_hinge__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Door Hinge, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_hinge__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Door Hinge, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_moulding__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Door Moulding, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_moulding__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Door Moulding, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_window_regulator__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Door Window Regulator, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_window_regulator__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Door Window Regulator, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_engine_oil_cooler">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Engine Oil Cooler</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_exterior_door_handles">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Exterior Door Handles</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_fender_flare/extension">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Fender Flare/Extension</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_fender_moulding">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Fender Moulding</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_floor_pan">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Floor Pan</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_frame">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Frame</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_frame_horn">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Frame Horn</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_frame_rails__up_lower">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Frame Rails, Up Lower</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_frame__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Frame, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_front_end_assembly">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Front End Assembly</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_front_lamp">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Front Lamp</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_hatchback_strut">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Hatchback Strut</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_header_panel_assembly">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Header Panel Assembly</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headlight_door_cover">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Headlight Door Cover</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_hitch/tow_hook/winc">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Hitch/Tow Hook/Winc</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_hood_hinge">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Hood Hinge</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_hood_strut">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Hood Strut</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_horn">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Horn</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_inner_fender">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Inner Fender</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_inner_fender_liner">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Inner Fender Liner</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_jack">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Jack</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_keys/latches/locks">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Keys/Latches/Locks</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_lid_gate_moulding">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Lid Gate Moulding</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_lid_motor_pull_down">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Lid Motor Pull Down</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_lock_actuator">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Lock Actuator</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_luggage_rack">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Luggage Rack</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_misc_trim_panel">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Misc. Trim Panel</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_moon_roof_panel_assembly">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Moon Roof Panel Assembly</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_motor_oil_cooler">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Motor Oil Cooler</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_nose">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Nose</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_pickup_box">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Pickup Box</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_pickup_box_floor_pan">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Pickup Box Floor Pan</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_pickup_box_front_panel">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Pickup Box Front Panel</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_pickup_cab_(shell)">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Pickup Cab (Shell)</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_plow/frame">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Plow/Frame</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_quarter_extension">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Quarter Extension</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_quarter_moulding">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Quarter Moulding</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_quarter_panel_assembly">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Quarter Panel Assembly</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_quarter_repair_panel">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Quarter Repair Panel</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_radiator_core_support">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Radiator Core Support</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_radiator_shroud">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Radiator Shroud</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_rear_bumper_cover">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Rear Bumper Cover</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_rear_clip">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Rear Clip</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_rear_top_section">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Rear Top Section</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_rocker_panel">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Rocker Panel</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_rocker_panel_moulding">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Rocker Panel Moulding</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_roll_bar">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Roll Bar</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_roof_assembly">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Roof Assembly</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_running_board">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Running Board</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_skirt">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Skirt</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_spare_wheel_carrier">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Spare Wheel Carrier</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_spare_wheel_parts">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Spare Wheel Parts</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_spindle_knuckle__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Spindle Knuckle, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_spoiler_valance__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Spoiler Valance, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_spoiler__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Spoiler, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_sun_roof_panel_assembly">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Sun Roof Panel Assembly</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_sun_visors">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Sun Visors</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_tail_finish_panel">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Tail Finish Panel</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_tail_gate_hinge">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Tail Gate Hinge</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_tail_panel">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Tail Panel</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_topper/tonneau">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Topper/Tonneau</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_trunk_lid_hinge">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Trunk Lid Hinge</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_vacuum/pressure_tank">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Vacuum/Pressure Tank</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_valance__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Valance, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_wash_reservoir_assembly">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Wash Reservoir Assembly</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_windshield_frame">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Windshield Frame</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_wiper_arm">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_body"/>
+        <field name="name">Wiper Arm</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_ac_compressor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">AC Compressor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_ac_condenser">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">AC Condenser</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_engine_oil_cooler">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">Engine Oil Cooler</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_heater_-_ac_parts">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">Heater - AC Parts</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_intercooler">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">Intercooler</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_motor_oil_cooler">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">Motor Oil Cooler</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_radiator">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">Radiator</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_radiator_core_support">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">Radiator Core Support</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_radiator/condenser_fan_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">Radiator/Condenser Fan Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_temp_control">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">Temp Control</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_ac_evaporator">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">AC Evaporator</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_ac_evaporator_housing">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">AC Evaporator Housing</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_ac_hoses">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">AC Hoses</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_ac_selector">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">AC Selector</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_ac_wire_harness">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">AC Wire Harness</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_coolant_reservoir">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">Coolant Reservoir</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_fan_blade">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">Fan Blade</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_fan_clutch">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">Fan Clutch</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_heater_assembly">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">Heater Assembly</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_heater_core/element">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">Heater Core/Element</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_heater_housing">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">Heater Housing</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_power_steering_cooler">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">Power Steering Cooler</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_radiator_cover/baffle">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">Radiator Cover/Baffle</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_radiator_shroud">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_cooling_and_heating"/>
+        <field name="name">Radiator Shroud</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_alternator">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Alternator</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_amplifier_speakers">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Amplifier Speakers</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_auto_headlamp_dim">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Auto Headlamp Dim</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_engine/motor_control_module">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Engine/Motor Control Module</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_info-gps-tv_screen">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Info-GPS-TV Screen</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_information_screen">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Information Screen</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_navigation_screen">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Navigation Screen</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_radio">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Radio</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_stereo">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Stereo</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_tv_screen">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">TV Screen</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_antenna">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Antenna</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_battery">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Battery</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_blower_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Blower Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_body_sensor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Body Sensor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_body_wire_harness">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Body Wire Harness</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_cabin_fuse_box">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Cabin Fuse Box</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_camera_projector">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Camera Projector</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_chassis_control_module">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Chassis Control Module</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_chassis_sensor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Chassis Sensor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_clock">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Clock</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_clock_spring">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Clock Spring</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_coil/ignitor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Coil/Ignitor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_column_switch">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Column Switch</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_conversion/inverter_charger">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Conversion/Inverter Charger</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_convertible_top_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Convertible Top Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_cruise_control_regulator">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Cruise Control Regulator</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_cruise_speed_regulator">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Cruise Speed Regulator</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_dashboard_seat_switch">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Dashboard Seat Switch</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_dashboard_wire_harness">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Dashboard Wire Harness</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_distributor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Distributor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_window_switch__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Door Window Switch, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_window_switch__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Door Window Switch, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_drivetrain_sensor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Drivetrain Sensor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_electric_door_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Electric Door Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_electric_seat_belt_track">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Electric Seat Belt Track</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_electronic_gas_recirculation">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Electronic Gas Recirculation</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_engine_fuse_boxes">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Engine Fuse Boxes</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_engine_wire_harness">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Engine Wire Harness</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_fob/remote">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Fob/Remote</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_generator">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Generator</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headlamp_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Headlamp Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headlamp_wash_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Headlamp Wash Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headlamp_wipe_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Headlamp Wipe Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headlight_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Headlight Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headlight_wash_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Headlight Wash Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headlight_wiper_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Headlight Wiper Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headlight__auto_dim">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Headlight, Auto Dim</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_heads_up_display">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Heads Up Display</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_horn">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Horn</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_ignition_switch">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Ignition Switch</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_instrument_cluster">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Instrument Cluster</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_lamp_wiring_harness">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Lamp Wiring Harness</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_lid_motor_pull_down">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Lid Motor Pull Down</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_lock_actuator">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Lock Actuator</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_motor_wire_harness">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Motor Wire Harness</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_power_window_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Power Window Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_radiator/condenser_fan_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Radiator/Condenser Fan Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_rear_window_washer_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Rear Window Washer Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_relay__electrical">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Relay, Electrical</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_roof_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Roof Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_seat_belt_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Seat Belt Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_seat_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Seat Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_speaker">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Speaker</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_speedo_head/cluster">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Speedo Head/Cluster</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_starter_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Starter Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_steering_column">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Steering Column</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_suspension_compressor_pumps">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Suspension Compressor Pumps</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_tachometer">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Tachometer</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_temp_control">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Temp Control</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_transfer_case_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Transfer Case Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_transmission_wire_harness">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Transmission Wire Harness</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_voltage_regulator">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Voltage Regulator</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_windshield_washer_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Windshield Washer Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_wiper_motor__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Wiper Motor, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_wiper_motor__windshield">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Wiper Motor, Windshield</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_wiper_transmission">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_electrical"/>
+        <field name="name">Wiper Transmission</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_ac_compressor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">AC Compressor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_cylinder_head">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Cylinder Head</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_engine">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Engine</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_engine_wire_harness">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Engine Wire Harness</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_engine/motor_control_module">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Engine/Motor Control Module</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_intake_manifold">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Intake Manifold</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_motor_wire_harness">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Motor Wire Harness</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_starter_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Starter Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_turbo-supercharger">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Turbo-Supercharger</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_belt_tensioner">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Belt Tensioner</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_brackets__misc">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Brackets, Misc</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_camshaft">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Camshaft</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_camshaft_housing">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Camshaft Housing</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_coil/ignitor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Coil/Ignitor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_connecting_rod">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Connecting Rod</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_coolant_pump">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Coolant Pump</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_crankshaft">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Crankshaft</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_cylinder_block">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Cylinder Block</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_distributor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Distributor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_engine_cover">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Engine Cover</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_engine_mounts">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Engine Mounts</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_engine_oil_cooler">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Engine Oil Cooler</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_exhaust_manifold">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Exhaust Manifold</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_fan_blade">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Fan Blade</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_fan_clutch">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Fan Clutch</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_filter-water_separator">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Filter-Water Separator</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_harmonic_balancer">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Harmonic Balancer</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_intercooler">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Intercooler</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_motor_cover">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Motor Cover</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_motor_mounts">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Motor Mounts</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_motor_oil_cooler">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Motor Oil Cooler</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_muffler">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Muffler</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_oil_filter_adapter">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Oil Filter Adapter</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_oil_pan">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Oil Pan</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_oil_pump">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Oil Pump</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_piston">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Piston</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_rocker_arm">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Rocker Arm</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_short_cylinder_block">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Short Cylinder Block</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_thermostat_housing">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Thermostat Housing</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_timing_chain__belt">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Timing Chain, Belt</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_timing_cover">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Timing Cover</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_timing_gears">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Timing Gears</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_vacuum_pump">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Vacuum Pump</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_vacuum/pressure_tank">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Vacuum/Pressure Tank</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_valve_cover">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_engine"/>
+        <field name="name">Valve Cover</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_air_bag">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Air Bag</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_amplifier_speakers">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Amplifier Speakers</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_complete_interior">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Complete Interior</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_info-gps-tv_screen">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Info-GPS-TV Screen</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_information_screen">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Information Screen</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_navigation_screen">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Navigation Screen</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_radio">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Radio</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_seat__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Seat, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_stereo">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Stereo</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_tv_screen">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">TV Screen</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_accessory_holders">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Accessory Holders</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_ash_tray/lighter">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Ash Tray/Lighter</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_carpet__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Carpet, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_carpet__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Carpet, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_clock">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Clock</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_clock_spring">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Clock Spring</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_dashboard_assembly">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Dashboard Assembly</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_dashboard_bezel">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Dashboard Bezel</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_dashboard_pad">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Dashboard Pad</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_dashboard_panel">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Dashboard Panel</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_dashboard_trim">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Dashboard Trim</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_dashboard_wire_harness">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Dashboard Wire Harness</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_handle__interior">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Door Handle, Interior</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_window_crank__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Door Window Crank, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_window_crank__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Door Window Crank, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_window_switch__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Door Window Switch, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_window_switch__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Door Window Switch, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_electric_seat_belt_track">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Electric Seat Belt Track</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_front_console">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Front Console</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_front_seat_track">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Front Seat Track</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_glove_box">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Glove Box</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headliner">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Headliner</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headrest">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Headrest</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_heads_up_display">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Heads Up Display</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_instrument_cluster">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Instrument Cluster</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_interior_rear_view_mirror">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Interior Rear View Mirror</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_owners_manual">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Owners Manual</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_parcel_shelf">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Parcel Shelf</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_rear_console">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Rear Console</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_seat_belt_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Seat Belt Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_seat_belt__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Seat Belt, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_seat_belt__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Seat Belt, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_seat_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Seat Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_seat_track__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Seat Track, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_seat__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Seat, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_speaker">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Speaker</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_speedo_head/cluster">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Speedo Head/Cluster</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_steering_wheel">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Steering Wheel</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_sun_visors">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Sun Visors</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_tachometer">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Tachometer</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_temp_control">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Temp Control</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_third_seat__station_wagon_van">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Third Seat, Station Wagon Van</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_trim_panel__front_door">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Trim Panel, Front Door</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_trim_panel__rear_door">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Trim Panel, Rear Door</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_visor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Visor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_window_shade">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_interior"/>
+        <field name="name">Window Shade</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_auto_headlamp_dim">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_lights"/>
+        <field name="name">Auto Headlamp Dim</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_backup_lamp">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_lights"/>
+        <field name="name">Backup Lamp</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_front_lamp">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_lights"/>
+        <field name="name">Front Lamp</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headlamp_assembly">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_lights"/>
+        <field name="name">Headlamp Assembly</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headlamp_door-cover">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_lights"/>
+        <field name="name">Headlamp Door-Cover</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headlight_assembly">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_lights"/>
+        <field name="name">Headlight Assembly</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headlight_cover">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_lights"/>
+        <field name="name">Headlight Cover</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headlight_door_cover">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_lights"/>
+        <field name="name">Headlight Door Cover</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headlight__auto_dim">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_lights"/>
+        <field name="name">Headlight, Auto Dim</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_tail_lamp">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_lights"/>
+        <field name="name">Tail Lamp</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headlamp_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_lights"/>
+        <field name="name">Headlamp Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headlamp_wash_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_lights"/>
+        <field name="name">Headlamp Wash Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headlamp_wipe_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_lights"/>
+        <field name="name">Headlamp Wipe Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headlight_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_lights"/>
+        <field name="name">Headlight Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headlight_wash_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_lights"/>
+        <field name="name">Headlight Wash Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_headlight_wiper_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_lights"/>
+        <field name="name">Headlight Wiper Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_high_mtd_stop_lamp">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_lights"/>
+        <field name="name">High Mtd Stop Lamp</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_lamp_wiring_harness">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_lights"/>
+        <field name="name">Lamp Wiring Harness</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_license_lamp">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_lights"/>
+        <field name="name">License Lamp</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_side_marker_lamp_rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_lights"/>
+        <field name="name">Side Marker Lamp Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_back_glass">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Back Glass</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_glass__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Door Glass, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_mirror">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Door Mirror</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_window__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Door Window, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_glass__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Glass, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_mirror">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Mirror</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_moon_roof_panel_assembly">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Moon Roof Panel Assembly</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_side_view_mirror">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Side View Mirror</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_sun_visors">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Sun Visors</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_windshield_glass">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Windshield Glass</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_glass__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Door Glass, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_vent_glass__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Door Vent Glass, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_vent_glass__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Door Vent Glass, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_window_regulator__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Door Window Regulator, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_window_regulator__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Door Window Regulator, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_door_window__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Door Window, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_front_door_vent_window_regular">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Front Door Vent Window Regular</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_glass_regulator__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Glass Regulator, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_interior_rear_view_mirror">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Interior Rear View Mirror</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_moon_roof_glass">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Moon Roof Glass</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_power_window_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Power Window Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_quarter_glass">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Quarter Glass</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_quarter_window_regular__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Quarter Window Regular, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_rear_window_washer_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Rear Window Washer Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_roof_glass">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Roof Glass</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_special_glass">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Special Glass</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_sun_roof_glass">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Sun Roof Glass</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_sun_roof_panel_assembly">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Sun Roof Panel Assembly</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_windshield_frame">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Windshield Frame</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_windshield_washer_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Windshield Washer Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_wiper_motor__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Wiper Motor, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_wiper_motor__windshield">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_mirrors_and_glass"/>
+        <field name="name">Wiper Motor, Windshield</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_automatic_transmission_oil_cooler">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Automatic Transmission Oil Cooler</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_automatic_transmission_pan">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Automatic Transmission Pan</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_differential_assembly">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Differential Assembly</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_drive_shaft__front">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Drive Shaft, Front</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_drive_shaft__rear">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Drive Shaft, Rear</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_transaxle">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Transaxle</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_transfer_case_assembly">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Transfer Case Assembly</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_transmission">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Transmission</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_transmission_oil_cooler">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Transmission Oil Cooler</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_transmission_shift_assembly">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Transmission Shift Assembly</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_bell_housing">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Bell Housing</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_clutch_disc">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Clutch Disc</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_clutch_master_cylinder">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Clutch Master Cylinder</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_clutch_slave_cylinder">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Clutch Slave Cylinder</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_flywheel/flex_plate">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Flywheel/Flex Plate</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_overdrive_unit">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Overdrive Unit</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_pressure_plate">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Pressure Plate</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_shift_lever_linkage">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Shift Lever Linkage</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_torque_converter">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Torque Converter</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_transaxle_housing">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Transaxle Housing</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_transfer_case_motor">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Transfer Case Motor</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_transmission_case_adapter">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Transmission Case Adapter</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_transmission_cross_member_mount">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Transmission Cross Member Mount</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_transmission_oil_pan">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Transmission Oil Pan</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_transmission_pump">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Transmission Pump</field>    
+    </record>
+    <record model="gcp.car.part.sub.category" id="gcp_car_part_sub_category_transmission_wire_harness">
+        <field name="car_part_categ_id" ref="gocarpart_car_entry_v10.gcp_car_part_category_transmission"/>
+        <field name="name">Transmission Wire Harness</field>    
+    </record>
+    
+    
+    </data>
+</openerp>

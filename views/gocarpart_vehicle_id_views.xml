@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+   <data>
+      <record model="ir.ui.view" id="gcp_vin_form_view">
+         <field name="name">gcp.vin.form</field>
+         <field name="model">gcp.vin</field>
+         <field name="type">form</field>
+         <field name="arch" type="xml">
+            <form string="Vehicle Identification">
+               <sheet>
+                    <div class="oe_title">
+                    <h1>
+                    <field name="name" select="1" placeholder="Vehicle Identification Number"/></h1>
+                    </div>
+                    
+                  <group>
+                     
+                     <group>
+                     <field name="seller_id" attrs="{'readonly':[('is_seller','=',True)]}"/>
+                     <field name="is_seller" invisible="1"/>
+                     <field name="trim_engine_id"/>
+                     </group>
+                     <group>
+                     <field name="production_year" select="1"/>
+                     <field name="production_month" select="1"/>
+                     </group>
+                  </group>
+                     
+                     <notebook>
+                     <page string="Car Parts">
+                     <div>
+
+                        <field name="car_parts_ids" nolabel="1"/>
+                        <button name="%(action_gcp_car_parts_wizard_view)d" class="oe_stat_button" icon="fa-tachometer" string="Generate car parts" type="action" style="padding:1000"/>
+                        
+                        </div>
+                     </page>
+                     <page string="Other Information">
+                     <group>
+                     <group>
+                     
+                     <field name="drive" select="1"/>
+                     <field name="code_date_of_manufacture" select="1"/>
+                     <field name="final_drive_ratio" select="1"/>
+                     <field name="vehicle_line" select="1"/>
+                     <field name="air_conditioning" select="1"/>
+                     <field name="body_style" select="1"/>
+                     <field name="positive_territories" select="1"/>
+                     </group>
+                     <group>
+                     <field name="version" select="1"/>
+                     <field name="exterior_paint" select="1"/>
+                     <field name="engine_type" select="1"/>
+                     <field name="interior_environment" select="1"/>
+                     <field name="transmission" select="1"/>
+                     <field name="interior_fabric" select="1"/>
+                     </group>                
+                     </group>     
+                     </page>
+                     
+                     </notebook>
+                     
+               </sheet>
+            </form>
+         </field>
+      </record>
+      <record model="ir.ui.view" id="gcp_vin_tree_view">
+         <field name="name">gcp.vin.tree</field>
+         <field name="model">gcp.vin</field>
+         <field name="type">tree</field>
+         <field name="arch" type="xml">
+            <tree string="Vehicle Identification">
+               <field name="name"/>
+            </tree>
+         </field>
+      </record>
+      <record model="ir.actions.act_window" id="action_gcp_vin_tree_view">
+         <field name="name">Vehicle Identification</field>
+         <field name="type">ir.actions.act_window</field>
+         <field name="res_model">gcp.vin</field>
+         <!-- <field name="domain">[('field_name','condition',criteria)]</field>-->
+         <field name="view_type">form</field>
+         <field name="view_mode">tree,form</field>
+         <field name="view_id" ref="gcp_vin_tree_view"/>
+      </record>
+   </data>
+</openerp>

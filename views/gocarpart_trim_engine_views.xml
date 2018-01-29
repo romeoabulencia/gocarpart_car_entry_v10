@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+   <data>
+      <record model="ir.ui.view" id="gcp_trim_engine_form_view">
+         <field name="name">gcp.trim.engine.form</field>
+         <field name="model">gcp.trim.engine</field>
+         <field name="type">form</field>
+         <field name="arch" type="xml">
+            <form string="Trim / Engine">
+               <sheet>
+                  <group>
+                     <field name="name" select="1"/>
+                     <field name="v_model"/>
+                     <field name="make"/>
+                  </group>
+               </sheet>
+            </form>
+         </field>
+      </record>
+      <record model="ir.ui.view" id="gcp_trim_engine_tree_view">
+         <field name="name">gcp.trim.engine.tree</field>
+         <field name="model">gcp.trim.engine</field>
+         <field name="type">tree</field>
+         <field name="arch" type="xml">
+            <tree string="Trim / Engine">
+               <field name="name"/>
+               <field name="v_model"/>
+               <field name="make"/>
+            </tree>
+         </field>
+      </record>
+      <record model="ir.actions.act_window" id="action_gcp_trim_engine_tree_view">
+         <field name="name">Trim / Engine</field>
+         <field name="type">ir.actions.act_window</field>
+         <field name="res_model">gcp.trim.engine</field>
+         <!-- <field name="domain">[('field_name','condition',criteria)]</field>-->
+         <field name="view_type">form</field>
+         <field name="view_mode">tree,form</field>
+         <field name="view_id" ref="gcp_trim_engine_tree_view"/>
+      </record>
+   </data>
+</openerp>

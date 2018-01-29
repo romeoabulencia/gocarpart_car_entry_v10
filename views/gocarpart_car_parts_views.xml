@@ -1,0 +1,77 @@
+<openerp>
+   <data>
+      <record model="ir.ui.view" id="gcp_car_parts_form_view">
+         <field name="name">gcp.car.parts.form</field>
+         <field name="model">gcp.car.parts</field>
+         <field name="type">form</field>
+         <field name="arch" type="xml">
+            <form string="Car Parts">
+               <sheet>
+                  <group>
+                     <group>
+                        <field name="name"/>
+                        <field name="notes"/>
+                     </group>
+                     <group>
+                        <field name="vehicle_id"/>
+                        <field name="car_part_categ_id"/>
+                        <field name="car_part_sub_categ_id"/>
+                     </group>
+
+                  </group>
+               </sheet>
+            </form>
+         </field>
+      </record>
+      <record model="ir.ui.view" id="gcp_car_parts_tree_view">
+         <field name="name">gcp.car.parts.tree</field>
+         <field name="model">gcp.car.parts</field>
+         <field name="type">tree</field>
+         <field name="arch" type="xml">
+            <tree string="Car Parts">
+               <field name="vehicle_id"/>
+               <field name="car_part_categ_id"/>
+               <field name="car_part_sub_categ_id"/>
+               <field name="name"/>
+               <field name="notes"/>
+            </tree>
+         </field>
+      </record>
+      <record model="ir.actions.act_window" id="action_gcp_car_parts_tree_view">
+         <field name="name">Car Parts</field>
+         <field name="type">ir.actions.act_window</field>
+         <field name="res_model">gcp.car.parts</field>
+         <field name="view_type">form</field>
+         <field name="view_mode">tree,form</field>
+         <field name="view_id" ref="gcp_car_parts_tree_view"/>
+      </record>
+      
+        <record model="ir.ui.view" id="gcp_car_parts_wizard">
+           <field name="name">Generate car parts</field>
+           <field name="model">gcp.car.parts.wizard</field>
+           <field name="type">form</field>
+           <field name="arch" type="xml">
+               <form string="form_string">
+                   <field name="car_parts_ids" select="1">
+                    <tree editable="bottom">
+			               <field name="vehicle_id" readonly="True"/>
+                           <field name="car_part_categ_id" readonly="True"/>
+			               <field name="car_part_sub_categ_id" readonly="True"/>
+			               <field name="name"/>
+			               <field name="notes"/>                    
+                    </tree>
+                   </field>
+               </form>
+           </field>
+       </record>
+      
+      <record model="ir.actions.act_window" id="action_gcp_car_parts_wizard_view">
+         <field name="name">Generate Car Parts</field>
+         <field name="type">ir.actions.act_window</field>
+         <field name="res_model">gcp.car.parts.wizard</field>
+         <field name="view_type">form</field>
+         <field name="view_mode">form</field>
+         <field name="view_id" ref="gcp_car_parts_wizard"/>
+         <field name="target">new</field>
+      </record>   </data>
+</openerp>

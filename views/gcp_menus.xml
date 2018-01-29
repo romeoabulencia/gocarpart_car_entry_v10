@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+   <data>
+      <menuitem id="vehicle_menu" name="Vehicle" parent="odoo_marketplace.wk_seller_dashboard" groups=""/>
+      <menuitem id="vehicle_identification_menu" name="Vehicle Identification" parent="vehicle_menu" action="action_gcp_vin_tree_view" sequence="20" groups=""/>
+      <menuitem id="car_parts_menu" name="Car Parts" parent="vehicle_menu" action="action_gcp_car_parts_tree_view" sequence="10" groups=""/>
+      <menuitem id="vehicle_config" name="Configuration" parent="vehicle_menu" sequence="30" groups=""/>
+      <menuitem id="car_part_categ_menu" name="Car Part Categories" action="action_gcp_car_part_category_tree_view" parent="vehicle_config" sequence="31" groups=""/>
+      <menuitem id="car_part_sub_categ_menu" name="Car Part Sub Categories" action="action_gcp_car_part_sub_category_tree_view" parent="vehicle_config" sequence="32" groups=""/>
+      <menuitem id="trim_engine_menu" name="Trim / Engine" action="action_gcp_trim_engine_tree_view" parent="vehicle_config" sequence="33" groups=""/>
+   </data>
+</openerp>
