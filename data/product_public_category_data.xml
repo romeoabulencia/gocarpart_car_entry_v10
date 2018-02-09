@@ -1,0 +1,2563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+   <data>
+      <!-- Main categories -->    
+      <record model="product.public.category" id="gcp_air_and_fuel">
+         <field name="name">Air and Fuel</field>
+         <field name="parent_id"></field>
+         <field name="sequence">100</field>
+      </record>
+      <record model="product.public.category" id="gcp_axle__steering__and_suspension">
+         <field name="name">Axle, Steering, and Suspension</field>
+         <field name="parent_id"></field>
+         <field name="sequence">200</field>
+      </record>
+      <record model="product.public.category" id="gcp_body">
+         <field name="name">Body</field>
+         <field name="parent_id"></field>
+         <field name="sequence">300</field>
+      </record>
+      <record model="product.public.category" id="gcp_cooling_and_heating">
+         <field name="name">Cooling and Heating</field>
+         <field name="parent_id"></field>
+         <field name="sequence">400</field>
+      </record>
+      <record model="product.public.category" id="gcp_electrical">
+         <field name="name">Electrical</field>
+         <field name="parent_id"></field>
+         <field name="sequence">500</field>
+      </record>
+      <record model="product.public.category" id="gcp_engine">
+         <field name="name">Engine</field>
+         <field name="parent_id"></field>
+         <field name="sequence">600</field>
+      </record>
+      <record model="product.public.category" id="gcp_interior">
+         <field name="name">Interior</field>
+         <field name="parent_id"></field>
+         <field name="sequence">700</field>
+      </record>
+      <record model="product.public.category" id="gcp_lights">
+         <field name="name">Lights</field>
+         <field name="parent_id"></field>
+         <field name="sequence">800</field>
+      </record>
+      <record model="product.public.category" id="gcp_mirrors_and_glass">
+         <field name="name">Mirrors and Glass</field>
+         <field name="parent_id"></field>
+         <field name="sequence">900</field>
+      </record>
+      <record model="product.public.category" id="gcp_transmission">
+         <field name="name">Transmission</field>
+         <field name="parent_id"></field>
+         <field name="sequence">1000</field>
+      </record>
+      
+      <!-- Sub Categories -->
+      <record model="product.public.category" id="gcp_product_public_category_accelerator_parts">
+         <field name="name">Accelerator Parts</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">101</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_air_cleaner">
+         <field name="name">Air Cleaner</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">102</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_exhaust_assembly">
+         <field name="name">Exhaust Assembly</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">103</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_exhaust_manifold">
+         <field name="name">Exhaust Manifold</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">104</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_fuel_pump">
+         <field name="name">Fuel Pump</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">105</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_fuel_tank">
+         <field name="name">Fuel Tank</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">106</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_gas_tank">
+         <field name="name">Gas Tank</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">107</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_muffler">
+         <field name="name">Muffler</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">108</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_throttle_body_assembly">
+         <field name="name">Throttle Body Assembly</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">109</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_turbo-supercharger">
+         <field name="name">Turbo-Supercharger</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">110</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_air_flow_meter">
+         <field name="name">Air Flow Meter</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">111</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_air_injection_pump">
+         <field name="name">Air Injection Pump</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">112</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_air_tube/resonator">
+         <field name="name">Air Tube/Resonator</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">113</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_carburetor">
+         <field name="name">Carburetor</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">114</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_electronic_gas_recirculation">
+         <field name="name">Electronic Gas Recirculation</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">115</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_exhaust_cross_pipe">
+         <field name="name">Exhaust Cross Pipe</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">116</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_exhaust_fluid_pump">
+         <field name="name">Exhaust Fluid Pump</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">117</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_exhaust_fluid_tank">
+         <field name="name">Exhaust Fluid Tank</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">118</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_exhaust_pipe">
+         <field name="name">Exhaust Pipe</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">119</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_exhaust_resonator">
+         <field name="name">Exhaust Resonator</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">120</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_fuel_cap">
+         <field name="name">Fuel Cap</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">121</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_fuel_cell">
+         <field name="name">Fuel Cell</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">122</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_fuel_filler_door">
+         <field name="name">Fuel Filler Door</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">123</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_fuel_filler_neck">
+         <field name="name">Fuel Filler Neck</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">124</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_fuel_gauge">
+         <field name="name">Fuel Gauge</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">125</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_fuel_injection_parts">
+         <field name="name">Fuel Injection Parts</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">126</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_fuel_lines">
+         <field name="name">Fuel Lines</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">127</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_fuel_tank_send_unit">
+         <field name="name">Fuel Tank Send Unit</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">128</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_fuel_vapor_canister">
+         <field name="name">Fuel Vapor Canister</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">129</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_gas_cap">
+         <field name="name">Gas Cap</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">130</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_gas_filler_neck">
+         <field name="name">Gas Filler Neck</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">131</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_gas_filler_tube">
+         <field name="name">Gas Filler Tube</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">132</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_gas_gauge">
+         <field name="name">Gas Gauge</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">133</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_gas_lines">
+         <field name="name">Gas Lines</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">134</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_gas_tank_send_unit">
+         <field name="name">Gas Tank Send Unit</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">135</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_tail_pipe">
+         <field name="name">Tail Pipe</field>
+         <field name="parent_id" ref="gcp_air_and_fuel"/>
+         <field name="sequence">136</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_abs_parts">
+         <field name="name">ABS Parts</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">201</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_axle_assembly__front_(4wd)">
+         <field name="name">Axle Assembly, Front (4WD)</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">202</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_axle_assembly__rear">
+         <field name="name">Axle Assembly, Rear</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">203</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_differential_assembly">
+         <field name="name">Differential Assembly</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">204</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_frame">
+         <field name="name">Frame</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">205</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_rim">
+         <field name="name">Rim</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">206</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_steering_wheel">
+         <field name="name">Steering Wheel</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">207</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_strut">
+         <field name="name">Strut</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">208</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_tires">
+         <field name="name">Tires</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">209</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_wheel">
+         <field name="name">Wheel</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">210</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_4x4_axle_actuator">
+         <field name="name">4x4 Axle Actuator</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">211</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_anti-lock_brake_parts">
+         <field name="name">Anti-lock Brake Parts</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">212</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_axle_housing">
+         <field name="name">Axle Housing</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">213</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_axle_shaft">
+         <field name="name">Axle Shaft</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">214</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_backing_plate__front">
+         <field name="name">Backing Plate, Front</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">215</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_backing_plate__rear">
+         <field name="name">Backing Plate, Rear</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">216</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_brake_clutch_pedal_part">
+         <field name="name">Brake Clutch Pedal Part</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">217</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_brake_master_cylinder">
+         <field name="name">Brake Master Cylinder</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">218</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_brake_proport_valve">
+         <field name="name">Brake Proport Valve</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">219</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_brake_shoes">
+         <field name="name">Brake Shoes</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">220</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_brakes__front">
+         <field name="name">Brakes, Front</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">221</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_brakes__rear">
+         <field name="name">Brakes, Rear</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">222</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_caliper">
+         <field name="name">Caliper</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">223</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_carrier_assembly">
+         <field name="name">Carrier Assembly</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">224</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_carrier_case">
+         <field name="name">Carrier Case</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">225</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_center_cap">
+         <field name="name">Center Cap</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">226</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_chassis_control_module">
+         <field name="name">Chassis Control Module</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">227</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_chassis_sensor">
+         <field name="name">Chassis Sensor</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">228</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_coil/air_spring">
+         <field name="name">Coil/Air Spring</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">229</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_drag_link">
+         <field name="name">Drag Link</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">230</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_drive_shaft__front">
+         <field name="name">Drive Shaft, Front</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">231</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_drive_shaft__rear">
+         <field name="name">Drive Shaft, Rear</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">232</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_drivetrain_sensor">
+         <field name="name">Drivetrain Sensor</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">233</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_e-brake">
+         <field name="name">E-brake</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">234</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_emergency_brake_parts">
+         <field name="name">Emergency Brake Parts</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">235</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_frame_horn">
+         <field name="name">Frame Horn</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">236</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_frame_rails__up_lower">
+         <field name="name">Frame Rails, Up Lower</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">237</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_frame__front">
+         <field name="name">Frame, Front</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">238</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_front_axle_beam_2wd">
+         <field name="name">Front Axle Beam 2WD</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">239</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_hub">
+         <field name="name">Hub</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">240</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_hubcap">
+         <field name="name">Hubcap</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">241</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_idler_arm">
+         <field name="name">Idler Arm</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">242</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_independent_rear_suspension_assembly">
+         <field name="name">Independent Rear Suspension Assembly</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">243</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_knee__front">
+         <field name="name">Knee, Front</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">244</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_knuckle_support">
+         <field name="name">Knuckle Support</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">245</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_leaf_spring_front">
+         <field name="name">Leaf Spring Front</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">246</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_leaf_spring_rear">
+         <field name="name">Leaf Spring Rear</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">247</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_loaded_beam_axle">
+         <field name="name">Loaded Beam Axle</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">248</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_locking_hubs">
+         <field name="name">Locking Hubs</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">249</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_lower_control_arm__front">
+         <field name="name">Lower Control Arm, Front</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">250</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_lower_control_arm__rear">
+         <field name="name">Lower Control Arm, Rear</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">251</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_pitman_arm">
+         <field name="name">Pitman Arm</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">252</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_power_brake_booster">
+         <field name="name">Power Brake Booster</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">253</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_power_steering_assembly">
+         <field name="name">Power Steering Assembly</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">254</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_power_steering_control_valve">
+         <field name="name">Power Steering Control Valve</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">255</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_power_steering_cooler">
+         <field name="name">Power Steering Cooler</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">256</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_power_steering_press_cylinder">
+         <field name="name">Power Steering Press Cylinder</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">257</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_power_steering_press_hose">
+         <field name="name">Power Steering Press Hose</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">258</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_power_steering_pump/motor">
+         <field name="name">Power Steering Pump/Motor</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">259</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_power_steering_reservoir">
+         <field name="name">Power Steering Reservoir</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">260</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_radius_arm__front">
+         <field name="name">Radius Arm, Front</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">261</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_rear_knuckle/stub">
+         <field name="name">Rear Knuckle/Stub</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">262</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_ring_gear_-_pinion">
+         <field name="name">Ring Gear - Pinion</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">263</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_shock_absorber">
+         <field name="name">Shock Absorber</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">264</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_spring_hanger">
+         <field name="name">Spring Hanger</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">265</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_stabilizer_bar">
+         <field name="name">Stabilizer Bar</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">266</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_steering_column">
+         <field name="name">Steering Column</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">267</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_steering_gear_rack">
+         <field name="name">Steering Gear Rack</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">268</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_steering_shaft">
+         <field name="name">Steering Shaft</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">269</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_steering_suspension__misc">
+         <field name="name">Steering Suspension, Misc</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">270</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_strut_tower_brace">
+         <field name="name">Strut Tower Brace</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">271</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_suspension_compressor_pumps">
+         <field name="name">Suspension Compressor Pumps</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">272</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_suspension_cross_member_k-frame">
+         <field name="name">Suspension Cross Member K-Frame</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">273</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_tie_rod">
+         <field name="name">Tie Rod</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">274</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_tools">
+         <field name="name">Tools</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">275</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_torsion_bar">
+         <field name="name">Torsion Bar</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">276</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_trim_ring">
+         <field name="name">Trim Ring</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">277</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_universal_slip_yoke">
+         <field name="name">Universal Slip Yoke</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">278</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_upper_control_arm__front">
+         <field name="name">Upper Control Arm, Front</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">279</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_upper_control_arm__rear">
+         <field name="name">Upper Control Arm, Rear</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">280</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_wheel_cover">
+         <field name="name">Wheel Cover</field>
+         <field name="parent_id" ref="gcp_axle__steering__and_suspension"/>
+         <field name="sequence">281</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_bumper_assembly__front">
+         <field name="name">Bumper Assembly, Front</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">301</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_bumper_assembly__rear">
+         <field name="name">Bumper Assembly, Rear</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">302</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_bumper_cover__front">
+         <field name="name">Bumper Cover, Front</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">303</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_assembly__front">
+         <field name="name">Door Assembly, Front</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">304</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_assembly__rear">
+         <field name="name">Door Assembly, Rear</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">305</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_fender">
+         <field name="name">Fender</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">306</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_grille">
+         <field name="name">Grille</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">307</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headlamp_door-cover">
+         <field name="name">Headlamp Door-Cover</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">308</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headlight_cover">
+         <field name="name">Headlight Cover</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">309</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_hood">
+         <field name="name">Hood</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">310</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_a_pillar">
+         <field name="name">A Pillar</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">311</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_antenna">
+         <field name="name">Antenna</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">312</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_battery_tray">
+         <field name="name">Battery Tray</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">313</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_bed_liner">
+         <field name="name">Bed Liner</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">314</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_body_sensor">
+         <field name="name">Body Sensor</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">315</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_bumper_end_cap">
+         <field name="name">Bumper End Cap</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">316</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_bumper_filler_panel">
+         <field name="name">Bumper Filler Panel</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">317</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_bumper_guard__front">
+         <field name="name">Bumper Guard, Front</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">318</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_bumper_guard__rear">
+         <field name="name">Bumper Guard, Rear</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">319</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_bumper_reinforcement__front">
+         <field name="name">Bumper Reinforcement, Front</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">320</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_bumper_reinforcement__rear">
+         <field name="name">Bumper Reinforcement, Rear</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">321</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_bumper_shock">
+         <field name="name">Bumper Shock</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">322</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_cab_clip">
+         <field name="name">Cab Clip</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">323</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_cargo_cover">
+         <field name="name">Cargo Cover</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">324</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_center_pillar">
+         <field name="name">Center Pillar</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">325</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_convertible_boot">
+         <field name="name">Convertible Boot</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">326</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_convertible_top_lift">
+         <field name="name">Convertible Top Lift</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">327</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_cowl">
+         <field name="name">Cowl</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">328</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_cowl_vent_panel">
+         <field name="name">Cowl Vent Panel</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">329</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_decklid_tailgate">
+         <field name="name">Decklid Tailgate</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">330</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_assembly__rear_back">
+         <field name="name">Door Assembly, Rear Back</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">331</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_hinge__front">
+         <field name="name">Door Hinge, Front</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">332</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_hinge__rear">
+         <field name="name">Door Hinge, Rear</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">333</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_moulding__front">
+         <field name="name">Door Moulding, Front</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">334</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_moulding__rear">
+         <field name="name">Door Moulding, Rear</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">335</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_window_regulator__front">
+         <field name="name">Door Window Regulator, Front</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">336</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_window_regulator__rear">
+         <field name="name">Door Window Regulator, Rear</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">337</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_engine_oil_cooler">
+         <field name="name">Engine Oil Cooler</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">338</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_exterior_door_handles">
+         <field name="name">Exterior Door Handles</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">339</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_fender_flare/extension">
+         <field name="name">Fender Flare/Extension</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">340</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_fender_moulding">
+         <field name="name">Fender Moulding</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">341</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_floor_pan">
+         <field name="name">Floor Pan</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">342</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_frame">
+         <field name="name">Frame</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">343</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_frame_horn">
+         <field name="name">Frame Horn</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">344</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_frame_rails__up_lower">
+         <field name="name">Frame Rails, Up Lower</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">345</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_frame__front">
+         <field name="name">Frame, Front</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">346</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_front_end_assembly">
+         <field name="name">Front End Assembly</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">347</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_front_lamp">
+         <field name="name">Front Lamp</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">348</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_hatchback_strut">
+         <field name="name">Hatchback Strut</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">349</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_header_panel_assembly">
+         <field name="name">Header Panel Assembly</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">350</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headlight_door_cover">
+         <field name="name">Headlight Door Cover</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">351</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_hitch/tow_hook/winc">
+         <field name="name">Hitch/Tow Hook/Winc</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">352</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_hood_hinge">
+         <field name="name">Hood Hinge</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">353</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_hood_strut">
+         <field name="name">Hood Strut</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">354</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_horn">
+         <field name="name">Horn</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">355</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_inner_fender">
+         <field name="name">Inner Fender</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">356</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_inner_fender_liner">
+         <field name="name">Inner Fender Liner</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">357</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_jack">
+         <field name="name">Jack</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">358</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_keys/latches/locks">
+         <field name="name">Keys/Latches/Locks</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">359</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_lid_gate_moulding">
+         <field name="name">Lid Gate Moulding</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">360</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_lid_motor_pull_down">
+         <field name="name">Lid Motor Pull Down</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">361</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_lock_actuator">
+         <field name="name">Lock Actuator</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">362</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_luggage_rack">
+         <field name="name">Luggage Rack</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">363</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_misc__trim_panel">
+         <field name="name">Misc. Trim Panel</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">364</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_moon_roof_panel_assembly">
+         <field name="name">Moon Roof Panel Assembly</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">365</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_motor_oil_cooler">
+         <field name="name">Motor Oil Cooler</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">366</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_nose">
+         <field name="name">Nose</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">367</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_pickup_box">
+         <field name="name">Pickup Box</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">368</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_pickup_box_floor_pan">
+         <field name="name">Pickup Box Floor Pan</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">369</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_pickup_box_front_panel">
+         <field name="name">Pickup Box Front Panel</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">370</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_pickup_cab_(shell)">
+         <field name="name">Pickup Cab (Shell)</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">371</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_plow/frame">
+         <field name="name">Plow/Frame</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">372</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_quarter_extension">
+         <field name="name">Quarter Extension</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">373</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_quarter_moulding">
+         <field name="name">Quarter Moulding</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">374</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_quarter_panel_assembly">
+         <field name="name">Quarter Panel Assembly</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">375</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_quarter_repair_panel">
+         <field name="name">Quarter Repair Panel</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">376</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_radiator_core_support">
+         <field name="name">Radiator Core Support</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">377</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_radiator_shroud">
+         <field name="name">Radiator Shroud</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">378</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_rear_bumper_cover">
+         <field name="name">Rear Bumper Cover</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">379</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_rear_clip">
+         <field name="name">Rear Clip</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">380</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_rear_top_section">
+         <field name="name">Rear Top Section</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">381</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_rocker_panel">
+         <field name="name">Rocker Panel</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">382</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_rocker_panel_moulding">
+         <field name="name">Rocker Panel Moulding</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">383</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_roll_bar">
+         <field name="name">Roll Bar</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">384</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_roof_assembly">
+         <field name="name">Roof Assembly</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">385</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_running_board">
+         <field name="name">Running Board</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">386</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_skirt">
+         <field name="name">Skirt</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">387</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_spare_wheel_carrier">
+         <field name="name">Spare Wheel Carrier</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">388</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_spare_wheel_parts">
+         <field name="name">Spare Wheel Parts</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">389</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_spindle_knuckle__front">
+         <field name="name">Spindle Knuckle, Front</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">390</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_spoiler_valance__front">
+         <field name="name">Spoiler Valance, Front</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">391</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_spoiler__rear">
+         <field name="name">Spoiler, Rear</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">392</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_sun_roof_panel_assembly">
+         <field name="name">Sun Roof Panel Assembly</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">393</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_sun_visors">
+         <field name="name">Sun Visors</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">394</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_tail_finish_panel">
+         <field name="name">Tail Finish Panel</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">395</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_tail_gate_hinge">
+         <field name="name">Tail Gate Hinge</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">396</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_tail_panel">
+         <field name="name">Tail Panel</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">397</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_topper/tonneau">
+         <field name="name">Topper/Tonneau</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">398</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_trunk_lid_hinge">
+         <field name="name">Trunk Lid Hinge</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">399</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_vacuum/pressure_tank">
+         <field name="name">Vacuum/Pressure Tank</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">400</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_valance__rear">
+         <field name="name">Valance, Rear</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">401</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_wash_reservoir_assembly">
+         <field name="name">Wash Reservoir Assembly</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">402</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_windshield_frame">
+         <field name="name">Windshield Frame</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">403</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_wiper_arm">
+         <field name="name">Wiper Arm</field>
+         <field name="parent_id" ref="gcp_body"/>
+         <field name="sequence">404</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_ac_compressor">
+         <field name="name">AC Compressor</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">401</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_ac_condenser">
+         <field name="name">AC Condenser</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">402</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_engine_oil_cooler">
+         <field name="name">Engine Oil Cooler</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">403</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_heater_-_ac_parts">
+         <field name="name">Heater - AC Parts</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">404</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_intercooler">
+         <field name="name">Intercooler</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">405</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_motor_oil_cooler">
+         <field name="name">Motor Oil Cooler</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">406</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_radiator">
+         <field name="name">Radiator</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">407</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_radiator_core_support">
+         <field name="name">Radiator Core Support</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">408</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_radiator/condenser_fan_motor">
+         <field name="name">Radiator/Condenser Fan Motor</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">409</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_temp_control">
+         <field name="name">Temp Control</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">410</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_ac_evaporator">
+         <field name="name">AC Evaporator</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">411</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_ac_evaporator_housing">
+         <field name="name">AC Evaporator Housing</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">412</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_ac_hoses">
+         <field name="name">AC Hoses</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">413</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_ac_selector">
+         <field name="name">AC Selector</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">414</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_ac_wire_harness">
+         <field name="name">AC Wire Harness</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">415</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_coolant_reservoir">
+         <field name="name">Coolant Reservoir</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">416</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_fan_blade">
+         <field name="name">Fan Blade</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">417</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_fan_clutch">
+         <field name="name">Fan Clutch</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">418</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_heater_assembly">
+         <field name="name">Heater Assembly</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">419</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_heater_core/element">
+         <field name="name">Heater Core/Element</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">420</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_heater_housing">
+         <field name="name">Heater Housing</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">421</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_power_steering_cooler">
+         <field name="name">Power Steering Cooler</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">422</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_radiator_cover/baffle">
+         <field name="name">Radiator Cover/Baffle</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">423</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_radiator_shroud">
+         <field name="name">Radiator Shroud</field>
+         <field name="parent_id" ref="gcp_cooling_and_heating"/>
+         <field name="sequence">424</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_alternator">
+         <field name="name">Alternator</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">501</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_amplifier_speakers">
+         <field name="name">Amplifier Speakers</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">502</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_auto_headlamp_dim">
+         <field name="name">Auto Headlamp Dim</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">503</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_engine/motor_control_module">
+         <field name="name">Engine/Motor Control Module</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">504</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_info-gps-tv_screen">
+         <field name="name">Info-GPS-TV Screen</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">505</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_information_screen">
+         <field name="name">Information Screen</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">506</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_navigation_screen">
+         <field name="name">Navigation Screen</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">507</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_radio">
+         <field name="name">Radio</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">508</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_stereo">
+         <field name="name">Stereo</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">509</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_tv_screen">
+         <field name="name">TV Screen</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">510</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_antenna">
+         <field name="name">Antenna</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">511</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_battery">
+         <field name="name">Battery</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">512</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_blower_motor">
+         <field name="name">Blower Motor</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">513</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_body_sensor">
+         <field name="name">Body Sensor</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">514</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_body_wire_harness">
+         <field name="name">Body Wire Harness</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">515</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_cabin_fuse_box">
+         <field name="name">Cabin Fuse Box</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">516</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_camera_projector">
+         <field name="name">Camera Projector</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">517</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_chassis_control_module">
+         <field name="name">Chassis Control Module</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">518</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_chassis_sensor">
+         <field name="name">Chassis Sensor</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">519</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_clock">
+         <field name="name">Clock</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">520</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_clock_spring">
+         <field name="name">Clock Spring</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">521</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_coil/ignitor">
+         <field name="name">Coil/Ignitor</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">522</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_column_switch">
+         <field name="name">Column Switch</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">523</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_conversion/inverter_charger">
+         <field name="name">Conversion/Inverter Charger</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">524</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_convertible_top_motor">
+         <field name="name">Convertible Top Motor</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">525</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_cruise_control_regulator">
+         <field name="name">Cruise Control Regulator</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">526</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_cruise_speed_regulator">
+         <field name="name">Cruise Speed Regulator</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">527</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_dashboard_seat_switch">
+         <field name="name">Dashboard Seat Switch</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">528</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_dashboard_wire_harness">
+         <field name="name">Dashboard Wire Harness</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">529</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_distributor">
+         <field name="name">Distributor</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">530</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_window_switch__front">
+         <field name="name">Door Window Switch, Front</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">531</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_window_switch__rear">
+         <field name="name">Door Window Switch, Rear</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">532</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_drivetrain_sensor">
+         <field name="name">Drivetrain Sensor</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">533</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_electric_door_motor">
+         <field name="name">Electric Door Motor</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">534</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_electric_seat_belt_track">
+         <field name="name">Electric Seat Belt Track</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">535</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_electronic_gas_recirculation">
+         <field name="name">Electronic Gas Recirculation</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">536</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_engine_fuse_boxes">
+         <field name="name">Engine Fuse Boxes</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">537</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_engine_wire_harness">
+         <field name="name">Engine Wire Harness</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">538</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_fob/remote">
+         <field name="name">Fob/Remote</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">539</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_generator">
+         <field name="name">Generator</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">540</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headlamp_motor">
+         <field name="name">Headlamp Motor</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">541</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headlamp_wash_motor">
+         <field name="name">Headlamp Wash Motor</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">542</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headlamp_wipe_motor">
+         <field name="name">Headlamp Wipe Motor</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">543</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headlight_motor">
+         <field name="name">Headlight Motor</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">544</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headlight_wash_motor">
+         <field name="name">Headlight Wash Motor</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">545</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headlight_wiper_motor">
+         <field name="name">Headlight Wiper Motor</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">546</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headlight__auto_dim">
+         <field name="name">Headlight, Auto Dim</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">547</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_heads_up_display">
+         <field name="name">Heads Up Display</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">548</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_horn">
+         <field name="name">Horn</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">549</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_ignition_switch">
+         <field name="name">Ignition Switch</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">550</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_instrument_cluster">
+         <field name="name">Instrument Cluster</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">551</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_lamp_wiring_harness">
+         <field name="name">Lamp Wiring Harness</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">552</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_lid_motor_pull_down">
+         <field name="name">Lid Motor Pull Down</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">553</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_lock_actuator">
+         <field name="name">Lock Actuator</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">554</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_motor_wire_harness">
+         <field name="name">Motor Wire Harness</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">555</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_power_window_motor">
+         <field name="name">Power Window Motor</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">556</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_radiator/condenser_fan_motor">
+         <field name="name">Radiator/Condenser Fan Motor</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">557</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_rear_window_washer_motor">
+         <field name="name">Rear Window Washer Motor</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">558</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_relay__electrical">
+         <field name="name">Relay, Electrical</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">559</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_roof_motor">
+         <field name="name">Roof Motor</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">560</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_seat_belt_motor">
+         <field name="name">Seat Belt Motor</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">561</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_seat_motor">
+         <field name="name">Seat Motor</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">562</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_speaker">
+         <field name="name">Speaker</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">563</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_speedo_head/cluster">
+         <field name="name">Speedo Head/Cluster</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">564</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_starter_motor">
+         <field name="name">Starter Motor</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">565</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_steering_column">
+         <field name="name">Steering Column</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">566</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_suspension_compressor_pumps">
+         <field name="name">Suspension Compressor Pumps</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">567</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_tachometer">
+         <field name="name">Tachometer</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">568</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_temp_control">
+         <field name="name">Temp Control</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">569</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_transfer_case_motor">
+         <field name="name">Transfer Case Motor</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">570</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_transmission_wire_harness">
+         <field name="name">Transmission Wire Harness</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">571</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_voltage_regulator">
+         <field name="name">Voltage Regulator</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">572</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_windshield_washer_motor">
+         <field name="name">Windshield Washer Motor</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">573</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_wiper_motor__rear">
+         <field name="name">Wiper Motor, Rear</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">574</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_wiper_motor__windshield">
+         <field name="name">Wiper Motor, Windshield</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">575</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_wiper_transmission">
+         <field name="name">Wiper Transmission</field>
+         <field name="parent_id" ref="gcp_electrical"/>
+         <field name="sequence">576</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_ac_compressor">
+         <field name="name">AC Compressor</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">601</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_cylinder_head">
+         <field name="name">Cylinder Head</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">602</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_engine">
+         <field name="name">Engine</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">603</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_engine_wire_harness">
+         <field name="name">Engine Wire Harness</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">604</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_engine/motor_control_module">
+         <field name="name">Engine/Motor Control Module</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">605</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_intake_manifold">
+         <field name="name">Intake Manifold</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">606</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_motor">
+         <field name="name">Motor</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">607</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_motor_wire_harness">
+         <field name="name">Motor Wire Harness</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">608</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_starter_motor">
+         <field name="name">Starter Motor</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">609</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_turbo-supercharger">
+         <field name="name">Turbo-Supercharger</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">610</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_belt_tensioner">
+         <field name="name">Belt Tensioner</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">611</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_brackets__misc">
+         <field name="name">Brackets, Misc</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">612</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_camshaft">
+         <field name="name">Camshaft</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">613</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_camshaft_housing">
+         <field name="name">Camshaft Housing</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">614</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_coil/ignitor">
+         <field name="name">Coil/Ignitor</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">615</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_connecting_rod">
+         <field name="name">Connecting Rod</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">616</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_coolant_pump">
+         <field name="name">Coolant Pump</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">617</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_crankshaft">
+         <field name="name">Crankshaft</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">618</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_cylinder_block">
+         <field name="name">Cylinder Block</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">619</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_distributor">
+         <field name="name">Distributor</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">620</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_engine_cover">
+         <field name="name">Engine Cover</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">621</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_engine_mounts">
+         <field name="name">Engine Mounts</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">622</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_engine_oil_cooler">
+         <field name="name">Engine Oil Cooler</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">623</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_exhaust_manifold">
+         <field name="name">Exhaust Manifold</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">624</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_fan_blade">
+         <field name="name">Fan Blade</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">625</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_fan_clutch">
+         <field name="name">Fan Clutch</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">626</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_filter-water_separator">
+         <field name="name">Filter-Water Separator</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">627</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_harmonic_balancer">
+         <field name="name">Harmonic Balancer</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">628</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_intercooler">
+         <field name="name">Intercooler</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">629</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_motor_cover">
+         <field name="name">Motor Cover</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">630</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_motor_mounts">
+         <field name="name">Motor Mounts</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">631</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_motor_oil_cooler">
+         <field name="name">Motor Oil Cooler</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">632</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_muffler">
+         <field name="name">Muffler</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">633</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_oil_filter_adapter">
+         <field name="name">Oil Filter Adapter</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">634</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_oil_pan">
+         <field name="name">Oil Pan</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">635</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_oil_pump">
+         <field name="name">Oil Pump</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">636</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_piston">
+         <field name="name">Piston</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">637</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_rocker_arm">
+         <field name="name">Rocker Arm</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">638</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_short_cylinder_block">
+         <field name="name">Short Cylinder Block</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">639</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_thermostat_housing">
+         <field name="name">Thermostat Housing</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">640</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_timing_chain__belt">
+         <field name="name">Timing Chain, Belt</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">641</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_timing_cover">
+         <field name="name">Timing Cover</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">642</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_timing_gears">
+         <field name="name">Timing Gears</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">643</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_vacuum_pump">
+         <field name="name">Vacuum Pump</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">644</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_vacuum/pressure_tank">
+         <field name="name">Vacuum/Pressure Tank</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">645</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_valve_cover">
+         <field name="name">Valve Cover</field>
+         <field name="parent_id" ref="gcp_engine"/>
+         <field name="sequence">646</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_air_bag">
+         <field name="name">Air Bag</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">701</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_amplifier_speakers">
+         <field name="name">Amplifier Speakers</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">702</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_complete_interior">
+         <field name="name">Complete Interior</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">703</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_info-gps-tv_screen">
+         <field name="name">Info-GPS-TV Screen</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">704</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_information_screen">
+         <field name="name">Information Screen</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">705</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_navigation_screen">
+         <field name="name">Navigation Screen</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">706</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_radio">
+         <field name="name">Radio</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">707</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_seat__front">
+         <field name="name">Seat, Front</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">708</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_stereo">
+         <field name="name">Stereo</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">709</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_tv_screen">
+         <field name="name">TV Screen</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">710</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_accessory_holders">
+         <field name="name">Accessory Holders</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">711</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_ash_tray/lighter">
+         <field name="name">Ash Tray/Lighter</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">712</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_carpet__front">
+         <field name="name">Carpet, Front</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">713</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_carpet__rear">
+         <field name="name">Carpet, Rear</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">714</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_clock">
+         <field name="name">Clock</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">715</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_clock_spring">
+         <field name="name">Clock Spring</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">716</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_dashboard_assembly">
+         <field name="name">Dashboard Assembly</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">717</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_dashboard_bezel">
+         <field name="name">Dashboard Bezel</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">718</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_dashboard_pad">
+         <field name="name">Dashboard Pad</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">719</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_dashboard_panel">
+         <field name="name">Dashboard Panel</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">720</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_dashboard_trim">
+         <field name="name">Dashboard Trim</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">721</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_dashboard_wire_harness">
+         <field name="name">Dashboard Wire Harness</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">722</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_handle__interior">
+         <field name="name">Door Handle, Interior</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">723</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_window_crank__front">
+         <field name="name">Door Window Crank, Front</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">724</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_window_crank__rear">
+         <field name="name">Door Window Crank, Rear</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">725</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_window_switch__front">
+         <field name="name">Door Window Switch, Front</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">726</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_window_switch__rear">
+         <field name="name">Door Window Switch, Rear</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">727</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_electric_seat_belt_track">
+         <field name="name">Electric Seat Belt Track</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">728</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_front_console">
+         <field name="name">Front Console</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">729</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_front_seat_track">
+         <field name="name">Front Seat Track</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">730</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_glove_box">
+         <field name="name">Glove Box</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">731</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headliner">
+         <field name="name">Headliner</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">732</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headrest">
+         <field name="name">Headrest</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">733</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_heads_up_display">
+         <field name="name">Heads Up Display</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">734</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_instrument_cluster">
+         <field name="name">Instrument Cluster</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">735</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_interior_rear_view_mirror">
+         <field name="name">Interior Rear View Mirror</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">736</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_owners_manual">
+         <field name="name">Owners Manual</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">737</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_parcel_shelf">
+         <field name="name">Parcel Shelf</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">738</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_rear_console">
+         <field name="name">Rear Console</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">739</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_seat_belt_motor">
+         <field name="name">Seat Belt Motor</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">740</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_seat_belt__front">
+         <field name="name">Seat Belt, Front</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">741</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_seat_belt__rear">
+         <field name="name">Seat Belt, Rear</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">742</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_seat_motor">
+         <field name="name">Seat Motor</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">743</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_seat_track__front">
+         <field name="name">Seat Track, Front</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">744</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_seat__rear">
+         <field name="name">Seat, Rear</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">745</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_speaker">
+         <field name="name">Speaker</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">746</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_speedo_head/cluster">
+         <field name="name">Speedo Head/Cluster</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">747</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_steering_wheel">
+         <field name="name">Steering Wheel</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">748</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_sun_visors">
+         <field name="name">Sun Visors</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">749</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_tachometer">
+         <field name="name">Tachometer</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">750</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_temp_control">
+         <field name="name">Temp Control</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">751</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_third_seat__station_wagon_van">
+         <field name="name">Third Seat, Station Wagon Van</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">752</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_trim_panel__front_door">
+         <field name="name">Trim Panel, Front Door</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">753</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_trim_panel__rear_door">
+         <field name="name">Trim Panel, Rear Door</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">754</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_visor">
+         <field name="name">Visor</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">755</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_window_shade">
+         <field name="name">Window Shade</field>
+         <field name="parent_id" ref="gcp_interior"/>
+         <field name="sequence">756</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_auto_headlamp_dim">
+         <field name="name">Auto Headlamp Dim</field>
+         <field name="parent_id" ref="gcp_lights"/>
+         <field name="sequence">801</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_backup_lamp">
+         <field name="name">Backup Lamp</field>
+         <field name="parent_id" ref="gcp_lights"/>
+         <field name="sequence">802</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_front_lamp">
+         <field name="name">Front Lamp</field>
+         <field name="parent_id" ref="gcp_lights"/>
+         <field name="sequence">803</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headlamp_assembly">
+         <field name="name">Headlamp Assembly</field>
+         <field name="parent_id" ref="gcp_lights"/>
+         <field name="sequence">804</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headlamp_door-cover">
+         <field name="name">Headlamp Door-Cover</field>
+         <field name="parent_id" ref="gcp_lights"/>
+         <field name="sequence">805</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headlight_assembly">
+         <field name="name">Headlight Assembly</field>
+         <field name="parent_id" ref="gcp_lights"/>
+         <field name="sequence">806</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headlight_cover">
+         <field name="name">Headlight Cover</field>
+         <field name="parent_id" ref="gcp_lights"/>
+         <field name="sequence">807</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headlight_door_cover">
+         <field name="name">Headlight Door Cover</field>
+         <field name="parent_id" ref="gcp_lights"/>
+         <field name="sequence">808</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headlight__auto_dim">
+         <field name="name">Headlight, Auto Dim</field>
+         <field name="parent_id" ref="gcp_lights"/>
+         <field name="sequence">809</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_tail_lamp">
+         <field name="name">Tail Lamp</field>
+         <field name="parent_id" ref="gcp_lights"/>
+         <field name="sequence">810</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headlamp_motor">
+         <field name="name">Headlamp Motor</field>
+         <field name="parent_id" ref="gcp_lights"/>
+         <field name="sequence">811</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headlamp_wash_motor">
+         <field name="name">Headlamp Wash Motor</field>
+         <field name="parent_id" ref="gcp_lights"/>
+         <field name="sequence">812</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headlamp_wipe_motor">
+         <field name="name">Headlamp Wipe Motor</field>
+         <field name="parent_id" ref="gcp_lights"/>
+         <field name="sequence">813</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headlight_motor">
+         <field name="name">Headlight Motor</field>
+         <field name="parent_id" ref="gcp_lights"/>
+         <field name="sequence">814</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headlight_wash_motor">
+         <field name="name">Headlight Wash Motor</field>
+         <field name="parent_id" ref="gcp_lights"/>
+         <field name="sequence">815</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_headlight_wiper_motor">
+         <field name="name">Headlight Wiper Motor</field>
+         <field name="parent_id" ref="gcp_lights"/>
+         <field name="sequence">816</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_high_mtd_stop_lamp">
+         <field name="name">High Mtd Stop Lamp</field>
+         <field name="parent_id" ref="gcp_lights"/>
+         <field name="sequence">817</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_lamp_wiring_harness">
+         <field name="name">Lamp Wiring Harness</field>
+         <field name="parent_id" ref="gcp_lights"/>
+         <field name="sequence">818</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_license_lamp">
+         <field name="name">License Lamp</field>
+         <field name="parent_id" ref="gcp_lights"/>
+         <field name="sequence">819</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_side_marker_lamp_rear">
+         <field name="name">Side Marker Lamp Rear</field>
+         <field name="parent_id" ref="gcp_lights"/>
+         <field name="sequence">820</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_back_glass">
+         <field name="name">Back Glass</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">901</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_glass__front">
+         <field name="name">Door Glass, Front</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">902</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_mirror">
+         <field name="name">Door Mirror</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">903</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_window__front">
+         <field name="name">Door Window, Front</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">904</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_glass__rear">
+         <field name="name">Glass, Rear</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">905</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_mirror">
+         <field name="name">Mirror</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">906</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_moon_roof_panel_assembly">
+         <field name="name">Moon Roof Panel Assembly</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">907</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_side_view_mirror">
+         <field name="name">Side View Mirror</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">908</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_sun_visors">
+         <field name="name">Sun Visors</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">909</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_windshield_glass">
+         <field name="name">Windshield Glass</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">910</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_glass__rear">
+         <field name="name">Door Glass, Rear</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">911</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_vent_glass__front">
+         <field name="name">Door Vent Glass, Front</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">912</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_vent_glass__rear">
+         <field name="name">Door Vent Glass, Rear</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">913</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_window_regulator__front">
+         <field name="name">Door Window Regulator, Front</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">914</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_window_regulator__rear">
+         <field name="name">Door Window Regulator, Rear</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">915</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_door_window__rear">
+         <field name="name">Door Window, Rear</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">916</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_front_door_vent_window_regular">
+         <field name="name">Front Door Vent Window Regular</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">917</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_glass_regulator__rear">
+         <field name="name">Glass Regulator, Rear</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">918</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_interior_rear_view_mirror">
+         <field name="name">Interior Rear View Mirror</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">919</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_moon_roof_glass">
+         <field name="name">Moon Roof Glass</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">920</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_power_window_motor">
+         <field name="name">Power Window Motor</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">921</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_quarter_glass">
+         <field name="name">Quarter Glass</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">922</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_quarter_window_regular__rear">
+         <field name="name">Quarter Window Regular, Rear</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">923</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_rear_window_washer_motor">
+         <field name="name">Rear Window Washer Motor</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">924</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_roof_glass">
+         <field name="name">Roof Glass</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">925</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_special_glass">
+         <field name="name">Special Glass</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">926</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_sun_roof_glass">
+         <field name="name">Sun Roof Glass</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">927</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_sun_roof_panel_assembly">
+         <field name="name">Sun Roof Panel Assembly</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">928</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_windshield_frame">
+         <field name="name">Windshield Frame</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">929</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_windshield_washer_motor">
+         <field name="name">Windshield Washer Motor</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">930</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_wiper_motor__rear">
+         <field name="name">Wiper Motor, Rear</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">931</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_wiper_motor__windshield">
+         <field name="name">Wiper Motor, Windshield</field>
+         <field name="parent_id" ref="gcp_mirrors_and_glass"/>
+         <field name="sequence">932</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_automatic_transmission_oil_cooler">
+         <field name="name">Automatic Transmission Oil Cooler</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1001</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_automatic_transmission_pan">
+         <field name="name">Automatic Transmission Pan</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1002</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_differential_assembly">
+         <field name="name">Differential Assembly</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1003</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_drive_shaft__front">
+         <field name="name">Drive Shaft, Front</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1004</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_drive_shaft__rear">
+         <field name="name">Drive Shaft, Rear</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1005</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_transaxle">
+         <field name="name">Transaxle</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1006</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_transfer_case_assembly">
+         <field name="name">Transfer Case Assembly</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1007</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_transmission">
+         <field name="name">Transmission</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1008</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_transmission_oil_cooler">
+         <field name="name">Transmission Oil Cooler</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1009</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_transmission_shift_assembly">
+         <field name="name">Transmission Shift Assembly</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1010</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_bell_housing">
+         <field name="name">Bell Housing</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1011</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_clutch_disc">
+         <field name="name">Clutch Disc</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1012</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_clutch_master_cylinder">
+         <field name="name">Clutch Master Cylinder</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1013</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_clutch_slave_cylinder">
+         <field name="name">Clutch Slave Cylinder</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1014</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_flywheel/flex_plate">
+         <field name="name">Flywheel/Flex Plate</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1015</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_overdrive_unit">
+         <field name="name">Overdrive Unit</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1016</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_pressure_plate">
+         <field name="name">Pressure Plate</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1017</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_shift_lever_linkage">
+         <field name="name">Shift Lever Linkage</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1018</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_torque_converter">
+         <field name="name">Torque Converter</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1019</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_transaxle_housing">
+         <field name="name">Transaxle Housing</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1020</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_transfer_case_motor">
+         <field name="name">Transfer Case Motor</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1021</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_transmission_case_adapter">
+         <field name="name">Transmission Case Adapter</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1022</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_transmission_cross_member_mount">
+         <field name="name">Transmission Cross Member Mount</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1023</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_transmission_oil_pan">
+         <field name="name">Transmission Oil Pan</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1024</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_transmission_pump">
+         <field name="name">Transmission Pump</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1025</field>
+      </record>
+      <record model="product.public.category" id="gcp_product_public_category_transmission_wire_harness">
+         <field name="name">Transmission Wire Harness</field>
+         <field name="parent_id" ref="gcp_transmission"/>
+         <field name="sequence">1026</field>
+      </record>
+   </data>
+</openerp>

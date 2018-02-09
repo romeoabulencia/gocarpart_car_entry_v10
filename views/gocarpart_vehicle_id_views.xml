@@ -16,13 +16,17 @@
                   <group>
                      
                      <group>
+                     <field name="brand_id" required="True"/>
+                     <field name="model_id" required="True"/>
                      <field name="seller_id" attrs="{'readonly':[('is_seller','=',True)]}"/>
                      <field name="is_seller" invisible="1"/>
                      <field name="trim_engine_id"/>
                      </group>
                      <group>
-                     <field name="production_year" select="1"/>
-                     <field name="production_month" select="1"/>
+                     <field name="make_id" required="True"/>
+                     <field name="trim_id"/>
+                     <field name="production_year"/>
+                     <!-- <field name="production_month" select="1"/> -->
                      </group>
                   </group>
                      
@@ -74,6 +78,22 @@
             </tree>
          </field>
       </record>
+      
+<!--        <record id="gcp_vin_search_view" model="ir.ui.view">
+            <field name="name">gcp.vin.search</field>
+            <field name="model">gcp.vin</field>
+            <field name="arch" type="xml">
+                <search string="Search">
+                <field name="name" string="Name" filter_domain="[()]"/>
+                <separator/>
+                <filter string="Open" name="open" domain="[('state','!=','cancel')]" help="Open"/>
+                
+                 <group expand="0" string="Group By...">
+              		<filter string="Name" domain="[]" context="{'group_by':'name'}"/>
+                 </group>
+  				 </search>
+            </field> 
+        </record>-->
       <record model="ir.actions.act_window" id="action_gcp_vin_tree_view">
          <field name="name">Vehicle Identification</field>
          <field name="type">ir.actions.act_window</field>
@@ -83,5 +103,160 @@
          <field name="view_mode">tree,form</field>
          <field name="view_id" ref="gcp_vin_tree_view"/>
       </record>
+      
+      <!-- Car Brand -->
+           <record model="ir.ui.view" id="gcp_car_brand_form_view">
+                <field name="name">gcp.car.brand.form</field>
+                <field name="model">gcp.car.brand</field>
+                <field name="type">form</field>
+                <field name="arch" type="xml">
+                    <form string="Car Brand">
+                    <sheet>
+                        <group>
+                        <field name="name" select="1"/>
+                        </group>
+                        </sheet>
+                    </form>
+                </field>
+            </record>
+            
+            <record model="ir.ui.view" id="gcp_car_brand_tree_view">
+                <field name="name">gcp.car.brand.tree</field>
+                <field name="model">gcp.car.brand</field>
+                <field name="type">tree</field>
+                <field name="arch" type="xml">
+                    <tree string="Car Brand">
+                        <field name="name"/>
+                    </tree>
+                </field>
+            </record>
+        
+                  <record model="ir.actions.act_window" id="action_gcp_car_brand_tree_view">
+                <field name="name">Car Brand</field>
+                <field name="type">ir.actions.act_window</field>
+                <field name="res_model">gcp.car.brand</field>
+		   <!-- <field name="domain">[('field_name','condition',criteria)]</field>-->
+                <field name="view_type">form</field>
+                <field name="view_mode">tree,form</field>
+                <field name="view_id" ref="gcp_car_brand_tree_view"/>
+            </record>
+
+      
+      <!-- Car Make -->
+           <record model="ir.ui.view" id="gcp_car_make_form_view">
+                <field name="name">gcp.car.make.form</field>
+                <field name="model">gcp.car.make</field>
+                <field name="type">form</field>
+                <field name="arch" type="xml">
+                    <form string="Car make">
+                    <sheet>
+                        <group>
+                        <field name="name" select="1"/>
+                        <field name="car_brand_id"/>
+                        </group>
+                        </sheet>
+                    </form>
+                </field>
+            </record>
+            
+            <record model="ir.ui.view" id="gcp_car_make_tree_view">
+                <field name="name">gcp.car.make.tree</field>
+                <field name="model">gcp.car.make</field>
+                <field name="type">tree</field>
+                <field name="arch" type="xml">
+                    <tree string="Car make">
+                        <field name="name"/>
+                    </tree>
+                </field>
+            </record>
+        
+                  <record model="ir.actions.act_window" id="action_gcp_car_make_tree_view">
+                <field name="name">Car Make</field>
+                <field name="type">ir.actions.act_window</field>
+                <field name="res_model">gcp.car.make</field>
+           <!-- <field name="domain">[('field_name','condition',criteria)]</field>-->
+                <field name="view_type">form</field>
+                <field name="view_mode">tree,form</field>
+                <field name="view_id" ref="gcp_car_make_tree_view"/>
+            </record>      
+      
+      <!-- Car Model -->
+           <record model="ir.ui.view" id="gcp_car_model_form_view">
+                <field name="name">gcp.car.model.form</field>
+                <field name="model">gcp.car.model</field>
+                <field name="type">form</field>
+                <field name="arch" type="xml">
+                    <form string="Car model">
+                    <sheet>
+                        <group>
+                        <field name="name" select="1"/>
+                        <field name="car_brand_id"/>
+                        <field name="car_make_id"/>
+                        </group>
+                        </sheet>
+                    </form>
+                </field>
+            </record>
+            
+            <record model="ir.ui.view" id="gcp_car_model_tree_view">
+                <field name="name">gcp.car.model.tree</field>
+                <field name="model">gcp.car.model</field>
+                <field name="type">tree</field>
+                <field name="arch" type="xml">
+                    <tree string="Car model">
+                        <field name="name"/>
+                    </tree>
+                </field>
+            </record>
+        
+                  <record model="ir.actions.act_window" id="action_gcp_car_model_tree_view">
+                <field name="name">Car Model</field>
+                <field name="type">ir.actions.act_window</field>
+                <field name="res_model">gcp.car.model</field>
+           <!-- <field name="domain">[('field_name','condition',criteria)]</field>-->
+                <field name="view_type">form</field>
+                <field name="view_mode">tree,form</field>
+                <field name="view_id" ref="gcp_car_model_tree_view"/>
+            </record>            
+      
+      <!-- Car Trim -->
+           <record model="ir.ui.view" id="gcp_car_trim_form_view">
+                <field name="name">gcp.car.trim.form</field>
+                <field name="model">gcp.car.trim</field>
+                <field name="type">form</field>
+                <field name="arch" type="xml">
+                    <form string="Car trim">
+                    <sheet>
+                        <group>
+                        <field name="name" select="1"/>
+                        <field name="car_brand_id"/>
+                        <field name="car_make_id"/>
+                        <field name="car_model_id"/>
+                        </group>
+                        </sheet>
+                    </form>
+                </field>
+            </record>
+            
+            <record model="ir.ui.view" id="gcp_car_trim_tree_view">
+                <field name="name">gcp.car.trim.tree</field>
+                <field name="model">gcp.car.trim</field>
+                <field name="type">tree</field>
+                <field name="arch" type="xml">
+                    <tree string="Car trim">
+                        <field name="name"/>
+                    </tree>
+                </field>
+            </record>
+        
+                  <record model="ir.actions.act_window" id="action_gcp_car_trim_tree_view">
+                <field name="name">Car Trim</field>
+                <field name="type">ir.actions.act_window</field>
+                <field name="res_model">gcp.car.trim</field>
+           <!-- <field name="domain">[('field_name','condition',criteria)]</field>-->
+                <field name="view_type">form</field>
+                <field name="view_mode">tree,form</field>
+                <field name="view_id" ref="gcp_car_trim_tree_view"/>
+            </record>            
    </data>
 </openerp>

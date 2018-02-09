@@ -33,9 +33,12 @@
                              'views/gocarpart_car_parts_views.xml',
                              'views/gocarpart_vehicle_id_views.xml',
                              'views/gcp_menus.xml',
+                             'views/product_views.xml',
                             #data
                             'data/gocarpart_trim_engine_data.xml',
                             'data/gocarpart_car_part_category_data.xml',
+                            'data/product_public_category_data.xml',
+                            'data/gocarpart_car_brand_data.xml',
                             ],
 #   "qweb"                 :  ['static/src/xml/marketplace.xml'],
 #   "images"               :  ['static/description/Banner.png'],

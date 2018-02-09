@@ -62,9 +62,35 @@ air_conditioning_selection=[('', 'N / A'),
                                 ]
 
 
-class vehicle_identification(models.Model):
-    _name="gcp.vin"
+class car_brand(models.Model):
+    _name="gcp.car.brand"
+    name=fields.Char(string="Car Brand/Manufacture")
 
+class car_make(models.Model):
+    _name="gcp.car.make"
+    name=fields.Char(string="Car Make")
+    car_brand_id = fields.Many2one('gcp.car.brand',string="Car Brand/Manufacturer",required=True)
+    
+class car_model(models.Model):
+    _name="gcp.car.model"
+    name=fields.Char(string="Car Model")
+    car_brand_id = fields.Many2one('gcp.car.brand',string="Car Brand/Manufacturer",required=True)
+    car_make_id = fields.Many2one('gcp.car.make',string="Car Make",required=True)
+    
+class car_trim(models.Model):
+    _name="gcp.car.trim"
+    name=fields.Char(string="Car Trim")
+    car_brand_id = fields.Many2one('gcp.car.brand',string="Car Brand/Manufacturer",required=True)
+    car_make_id = fields.Many2one('gcp.car.make',string="Car Make",required=True) 
+    car_model_id=fields.Many2one('gcp.car.model',string="Car Model",required=True)   
+    
+class car_style(models.Model):
+    _name="gcp.car.style"
+    name=fields.Char(string="Car Style")
+
+class vehicle_identification(models.Model):
+    _inherit="gcp.vin"
+    
 
     def _default_get_month(self):
         return fields.Date.from_string(fields.Date.context_today(self)).strftime('%m')
@@ -78,11 +104,15 @@ class vehicle_identification(models.Model):
         
     
     name=fields.Char(string='VIN', required=True)
-    production_month = fields.Selection([('01', 'January'), ('02', 'February'), ('03', 'March'),
-                               ('04', 'April'), ('05', 'May'), ('06', 'June'), ('07', 'July'),
-                               ('08', 'August'), ('09', 'September'), ('10', 'October'),
-                               ('11', 'November'), ('12', 'December')], string='Production Month', required=True, default=_default_get_month)
-    production_year = fields.Char('Production Year', size=4, required=True, default=_default_get_year)    
+#     production_month = fields.Selection([('01', 'January'), ('02', 'February'), ('03', 'March'),
+#                                ('04', 'April'), ('05', 'May'), ('06', 'June'), ('07', 'July'),
+#                                ('08', 'August'), ('09', 'September'), ('10', 'October'),
+#                                ('11', 'November'), ('12', 'December')], string='Production Month', required=True, default=_default_get_month)
+    brand_id = fields.Many2one('gcp.car.brand',string="Car Brand")
+    make_id = fields.Many2one('gcp.car.make', string="Car Make")
+    model_id = fields.Many2one('gcp.car.model',string="Car Model")
+    trim_id = fields.Many2one('gcp.car.trim',string="Car Trim")
+    production_year = fields.Char('Production Year', size=4, required=False, default=_default_get_year)    
     drive =  fields.Selection(drive_selection,string="Drive")
     code_date_of_manufacture = fields.Selection(code_date_of_manufacture_selection,string="Code date of manufacture") 
     final_drive_ratio = fields.Float(string="Final Drive Ratio")

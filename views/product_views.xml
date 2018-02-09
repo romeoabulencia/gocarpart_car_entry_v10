@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+    
+		 <record model="ir.ui.view" id="seller_product_template_common_inherit_form_view">
+                <field name="name">seller.product.template.common.inherit.form</field>
+                <field name="model">product.template</field>
+                <field name="type">form</field>
+                <field name="inherit_id" ref="odoo_marketplace.wk_seller_product_template_form_view"/>
+                <field name="arch" type="xml">
+                    <xpath expr="//notebook" position="inside">
+                        <page string="GoCarParts" sequence="100">
+                            <group>
+                            <group>
+                            <field name="vehicle_id"/>
+<field name="car_brand_id"/>
+<field name="car_make_id"/>
+<field name="car_model_id"/>
+<field name="car_trim_id"/>
+<field name="car_part_sub_categ_id"/>
+</group>
+<group>
+<field name="car_part_categ_id"/>
+<field name="name"/>
+<field name="part_number"/>
+<field name="notes"/>
+<field name="state"/>
+</group>
+</group>
+                            
+                        </page>
+                    
+                    </xpath>
+                </field>
+            </record>
+
+    
+    </data>
+</openerp>

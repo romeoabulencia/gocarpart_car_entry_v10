@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+    
+    <record model="gcp.car.brand" id="gcp_car_brand_abarth">
+        <field name="name">Abarth</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_alfa romeo">
+        <field name="name">Alfa Romeo</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_asia motors">
+        <field name="name">Asia Motors</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_aston martin">
+        <field name="name">Aston Martin</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_audi">
+        <field name="name">Audi</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_austin">
+        <field name="name">Austin</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_autobianchi">
+        <field name="name">Autobianchi</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_bentley">
+        <field name="name">Bentley</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_bmw">
+        <field name="name">Bmw</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_bugatti">
+        <field name="name">Bugatti</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_buick">
+        <field name="name">Buick</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_cadillac">
+        <field name="name">Cadillac</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_carver">
+        <field name="name">Carver</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_chevrolet">
+        <field name="name">Chevrolet</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_chrysler">
+        <field name="name">Chrysler</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_citroen">
+        <field name="name">Citroen</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_corvette">
+        <field name="name">Corvette</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_dacia">
+        <field name="name">Dacia</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_daewoo">
+        <field name="name">Daewoo</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_daihatsu">
+        <field name="name">Daihatsu</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_daimler">
+        <field name="name">Daimler</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_datsun">
+        <field name="name">Datsun</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_dodge">
+        <field name="name">Dodge</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_donkervoort">
+        <field name="name">Donkervoort</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_ds">
+        <field name="name">Ds</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_ferrari">
+        <field name="name">Ferrari</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_fiat">
+        <field name="name">Fiat</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_fisker">
+        <field name="name">Fisker</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_ford">
+        <field name="name">Ford</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_fso">
+        <field name="name">Fso</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_galloper">
+        <field name="name">Galloper</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_honda">
+        <field name="name">Honda</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_hummer">
+        <field name="name">Hummer</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_hyundai">
+        <field name="name">Hyundai</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_infiniti">
+        <field name="name">Infiniti</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_innocenti">
+        <field name="name">Innocenti</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_jaguar">
+        <field name="name">Jaguar</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_jeep">
+        <field name="name">Jeep</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_josse">
+        <field name="name">Josse</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_kia">
+        <field name="name">Kia</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_lada">
+        <field name="name">Lada</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_lamborghini">
+        <field name="name">Lamborghini</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_lancia">
+        <field name="name">Lancia</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_land rover">
+        <field name="name">Land Rover</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_landwind">
+        <field name="name">Landwind</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_lexus">
+        <field name="name">Lexus</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_lincoln">
+        <field name="name">Lincoln</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_lotus">
+        <field name="name">Lotus</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_marcos">
+        <field name="name">Marcos</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_maserati">
+        <field name="name">Maserati</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_maybach">
+        <field name="name">Maybach</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_mazda">
+        <field name="name">Mazda</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_mega">
+        <field name="name">Mega</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_mercedes">
+        <field name="name">Mercedes</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_mercury">
+        <field name="name">Mercury</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_mg">
+        <field name="name">Mg</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_mini">
+        <field name="name">Mini</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_mitsubishi">
+        <field name="name">Mitsubishi</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_morgan">
+        <field name="name">Morgan</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_morris">
+        <field name="name">Morris</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_nissan">
+        <field name="name">Nissan</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_noble">
+        <field name="name">Noble</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_opel">
+        <field name="name">Opel</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_peugeot">
+        <field name="name">Peugeot</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_pgo">
+        <field name="name">Pgo</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_pontiac">
+        <field name="name">Pontiac</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_porsche">
+        <field name="name">Porsche</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_princess">
+        <field name="name">Princess</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_renault">
+        <field name="name">Renault</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_rolls-royce">
+        <field name="name">Rolls-Royce</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_rover">
+        <field name="name">Rover</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_saab">
+        <field name="name">Saab</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_seat">
+        <field name="name">Seat</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_skoda">
+        <field name="name">Skoda</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_smart">
+        <field name="name">Smart</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_spectre">
+        <field name="name">Spectre</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_ssangyong">
+        <field name="name">Ssangyong</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_subaru">
+        <field name="name">Subaru</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_suzuki">
+        <field name="name">Suzuki</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_talbot">
+        <field name="name">Talbot</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_tesla">
+        <field name="name">Tesla</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_think">
+        <field name="name">Think</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_toyota">
+        <field name="name">Toyota</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_triumph">
+        <field name="name">Triumph</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_tvr">
+        <field name="name">Tvr</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_volkswagen">
+        <field name="name">Volkswagen</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_volvo">
+        <field name="name">Volvo</field>
+    </record>    <record model="gcp.car.brand" id="gcp_car_brand_yugo">
+        <field name="name">Yugo</field>
+    </record>
+    
+    
+    </data>
+</openerp>
